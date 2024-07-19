@@ -1,34 +1,48 @@
 {
   "users": [
     {
-      "id": "640a",
-      "name": "Matt Mertz"
+      "id": "e59e",
+      "name": "Julia Goodwin"
     },
     {
-      "id": "8f33",
-      "name": "Moses Koelpin"
+      "id": "323f",
+      "name": "Donald Corwin"
     },
     {
-      "id": "56e5",
-      "name": "Conrad Padberg"
+      "id": "e860",
+      "name": "Johnny Ruecker"
     },
     {
-      "id": "82da",
-      "name": "Felicia Keeling"
-    },
-    {
-      "id": "d01e",
-      "name": "Miss Christie Cole"
-    },
-    {
-      "id": "07d0",
-      "name": "Jamie Bogisich"
-    },
-    {
-      "id": "1860",
-      "name": "Ernest Nolan"
+      "id": "d24f",
+      "name": "Derek Reilly"
     }
   ],
-  "albums": [],
+  "albums": [
+    {
+      "id": "2067",
+      "title": "Incredible Metal Cheese",
+      "userId": "e59e"
+    },
+    {
+      "id": "1e95",
+      "title": "Luxurious Fresh Bacon",
+      "userId": "e59e"
+    },
+    {
+      "id": "df49",
+      "title": "Practical Wooden Cheese",
+      "userId": "e59e"
+    },
+    {
+      "id": "850a",
+      "title": "Gorgeous Rubber Fish",
+      "userId": "323f"
+    },
+    {
+      "id": "d201",
+      "title": "Gorgeous Cotton Computer",
+      "userId": "323f"
+    }
+  ],
   "photos": []
 }

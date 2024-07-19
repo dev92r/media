@@ -1,18 +1,9 @@
-import { SerializedError, createSlice } from "@reduxjs/toolkit";
+import { createSlice } from "@reduxjs/toolkit";
 import { addUser, deleteUser, fetchUsers } from "..";
+import { UsersState } from "../../components/model/user";
 
-export interface UsersState {
-    isLoading: boolean;
-    data: User[]
-    error:null | SerializedError;
-}
 
-export interface User {
-    name: string,
-    id: number
-}
-
-export const initialState: UsersState = 
+const initialState: UsersState = 
     {
         isLoading:false,
         data:[],
@@ -63,6 +54,7 @@ const usersSlice = createSlice({
             state.isLoading = false;
             state.error = action.error;
         });
+
     }
 })
 

@@ -2,7 +2,7 @@ import { useState, useCallback } from "react";
 import { useDispatch } from "react-redux";
 import { AppDispatch } from "../../store";
 import { AsyncThunkAction } from "@reduxjs/toolkit";
-import { User } from "../../store/slices/usersSlice";
+import { User } from "../model/user";
 interface Props {
     thunk: (arg?:any) => AsyncThunkAction<any, any, any>;
   }
